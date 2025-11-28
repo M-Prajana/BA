@@ -1,0 +1,17 @@
+{
+  "name": "llm-comparison-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "@anthropic-ai/sdk": "^0.10.0",
+    "@google/generative-ai": "^0.1.3"
+  }
+}
